@@ -8,7 +8,7 @@ from src.mcqgenerator.logger import logging
 
 # packages from langchain
 # from langchain.chat_models import ChatOpenAI
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 # from langchain.llms import OpenAI
 from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
@@ -25,7 +25,7 @@ load_dotenv()
 key=os.getenv("OPENAI_API_KEY")
 
 
-llm=ChatOpenAI(openai_api_key=KEY,tiktoken_model_name="gpt-3.5-turbo", temperature=0.5)
+llm=ChatOpenAI(openai_api_key=key,tiktoken_model_name="gpt-3.5-turbo", temperature=0.5)
 
 TEMPLATE="""
 Text:{text}
@@ -60,6 +60,7 @@ Check from an expert English Writer of the above quiz:
 
 quiz_evaluation_prompt=PromptTemplate(input_variables=["subject", "quiz"], template=TEMPLATE)
 
+review_chain=LLMChain(llm=llm, prompt=quiz_evaluation_prompt, output_key="review", verbose=True)
 
 # This is an overll chain where we call 2 chains in sequence
 generate_evaluate_chain=SequentialChain(chains=[quiz_chain, review_chain], 
