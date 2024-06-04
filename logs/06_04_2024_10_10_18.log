@@ -1,2 +1,14 @@
 [2024-06-04 10:10:53,189] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 [2024-06-04 10:11:06,157] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:12:16,877] 467 pypdf._reader - WARNING - Overwriting cache for 0 1579
+[2024-06-04 10:12:30,329] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:12:44,149] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:12:49,968] 467 pypdf._reader - WARNING - Overwriting cache for 0 1579
+[2024-06-04 10:13:05,038] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:13:17,085] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:13:31,391] 467 pypdf._reader - WARNING - Overwriting cache for 0 1579
+[2024-06-04 10:13:44,353] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:13:56,092] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:14:28,778] 467 pypdf._reader - WARNING - Overwriting cache for 0 1579
+[2024-06-04 10:14:41,095] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 10:14:53,786] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

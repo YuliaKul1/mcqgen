@@ -13,7 +13,7 @@ def read_file(file):
             text=""
             for page in pdf_reader.pages:
                 text=page.extract_text()
-                print(text)
+                #print(text)
             return text
         
         except Exception as e:
