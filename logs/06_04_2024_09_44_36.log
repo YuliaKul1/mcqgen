@@ -1,0 +1,5 @@
+[2024-06-04 09:45:10,276] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 09:45:24,831] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 09:46:45,523] 402 PyPDF2._reader - WARNING - Overwriting cache for 0 1579
+[2024-06-04 09:46:59,023] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-04 09:47:10,285] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
